@@ -1,0 +1,71 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.container{
+
+
+
+    /* Principal text center */
+    .principal-title{
+        font-size: 33px;
+        color: #024e7e;
+        text-align: center;
+        text-shadow: 0px 0px 1px #333;
+    }
+
+
+
+    /*  cards Header */
+    h3{
+        
+    }
+
+/* Cards */
+    .tarjeta-adicionales {
+        margin-top: 10px;
+        width: 535px;
+        border-radius: 5px;
+        padding: 15px 15px 5px 15px;
+        min-height: 150px;
+            .sub-title{
+                font-size: 15px;
+                margin-bottom: 6px;
+                color: #4f4f4f;
+            }
+    }
+    .caracteristica{
+        height: 30px;
+        border-top: 1px dashed #ccc;
+        line-height: 30px;
+        color: #002e45;
+        font-size: 15px;
+        p{
+            margin-left: -14px;
+        }
+        .feature-prince{
+            text-align: right;
+        }
+        span{
+            margin-right: 5px;
+        }
+       
+    }
+    .tarjeta-adicionales h3:after {
+        content: "";
+        background: #4965f9;
+        width: 40px;
+        height: 2px;
+        display: block;
+        margin: 2px 0 0;
+    }
+
+    
+  
+}
